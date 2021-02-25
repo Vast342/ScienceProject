@@ -1,6 +1,6 @@
 # ScienceProject
 
-A work-in-progress game about carbon emissions. The game is being made with Unity, while the site is being made separately and hosted through Github Pages.
+A work-in-progress game about nitrogen emissions. The game is being made with Unity, while the site is being made separately and hosted through Github Pages.
 
 ---
 
