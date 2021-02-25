@@ -1,0 +1,39 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+.w3-row-padding img {margin-bottom: 12px}
+
+/* Set the width of the sidebar to 120px */   
+.w3-sidebar {width: 120px;background:white;}
+    
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */    
+#main {margin-left: 120px}
+    
+/* Remove margins from "page content" on small screens */    
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+.icons {
+    color:rgb(84, 117, 224);
+}
+
+.game-container {
+    padding-top:5%;
+    padding-bottom:3%;
+}
+
+.control-text {
+    padding-bottom:2%;
+}
+
+.page-container {
+    padding-top:3%
+}
+
+.text-desc {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer {
+    font-size: 12px;
+    color:rgb(226, 226, 226)
+}

@@ -12,42 +12,32 @@
     <!-- Style Sheets. First is Unity, second is w3css-->
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
     
     <script src="https://kit.fontawesome.com/54d182fb23.js" crossorigin="anonymous"></script>
-
-    <style>
-      body, h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-      .w3-row-padding img {margin-bottom: 12px}
-      /* Set the width of the sidebar to 120px */
-      .w3-sidebar {width: 120px;background:white;}
-      /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-      #main {margin-left: 120px}
-      /* Remove margins from "page content" on small screens */
-      @media only screen and (max-width: 600px) {#main {margin-left: 0}}
-    </style>
   </head>
 
   <body style="background-color: white">
     <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-rightbar w3-border-blue w3-card">
       <!-- Avatar image in top left corner -->
-      <i class="fas fa-smog w3-xxlarge" style="margin: 32px; color:rgb(84, 117, 224);"></i>
+      <i class="fas fa-smog w3-xxlarge icons" style="margin: 32px;"></i>
 
       <a href="../index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-light-gray">
-        <i class="fas fa-gamepad w3-xxlarge" style="color:rgb(84, 117, 224);"></i>
+        <i class="fas fa-gamepad w3-xxlarge icons"></i>
         <p>GAME</p>
       </a>
       <a href="about.html" class="w3-bar-item w3-button w3-padding-large w3-hover-light-gray">
-        <i class="fas fa-truck w3-xxlarge" style="color:rgb(84, 117, 224);"></i>
+        <i class="fas fa-truck w3-xxlarge icons"></i>
         <p>ABOUT</p>
       </a>
       <a href="photos.html" class="w3-bar-item w3-button w3-padding-large w3-light-gray">
-        <i class="fas fa-images w3-xxlarge" style="color:rgb(84, 117, 224);"></i>
+        <i class="fas fa-images w3-xxlarge icons"></i>
         <p>PHOTOS</p>
       </a>
       <a href="stats.html" class="w3-bar-item w3-button w3-padding-large w3-hover-light-gray">
-        <i class="fa fa-chart-area w3-xxlarge" style="color:rgb(84, 117, 224);"></i>
+        <i class="fa fa-chart-area w3-xxlarge icons"></i>
         <p>STATS</p>
       </a>
     </nav>
@@ -69,16 +59,16 @@
         <h1 class="w3-xxlarge">Photos</h1>
       </header>
 
-      <div class="w3-margin w3-text-blue-gray" style="padding-top:3%">
+      <div class="w3-margin w3-text-blue-gray page-container">
         <center>
-          <p style="margin-left: 10%; margin-right: 10%;">
+          <p class="text-desc">
             This is example placeholder text for further input at a later time. Image portfolio can be made with a grid when images are provided.
           </p>
         </center>
       </div>
 
       <footer class="w3-center">
-        <p style="font-size: 12px; color:rgb(226, 226, 226)">
+        <p class="footer">
           Game and content created by Joseph Pasfield. Website created by TJ Pasfield.
         </p>
       </footer>
